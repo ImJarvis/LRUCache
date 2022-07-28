@@ -29,7 +29,6 @@ public:
             removenode(entry);
             addToTop(entry);
             return entry->value;
-            
         }
         return -1;
     }

@@ -1,6 +1,6 @@
 class LRUCache {
 private:
-    list<pair<int,int>> dll;
+    list<pair<int,int>> dll; // no more structure required
     unordered_map<int,list<pair<int,int>>::iterator> cache;
     int LRU_SIZE;
     
